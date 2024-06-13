@@ -1,0 +1,275 @@
+:root {
+  --my-dark: #181818;
+  --my-accent: #EF233C;
+  --my-light: #a49981;
+  --my-white: #faf9f8;
+}
+
+* {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--my-light);
+  line-height: 1.3;
+}
+
+html body {
+  background: var(--my-dark);
+}
+
+html a {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1.3;
+  text-decoration: none;
+  color: var(--my-white);
+  transition: all .3s;
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--my-accent);
+}
+
+#header {
+  height: 100vh;
+  width: 100%;
+  background-image: url(/img/Dark-Overlay.png), url(/img/bgrail\ \(1\ of\ 1\).jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffff;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  padding-top: 30vh;
+  border: solid 2em var(--my-dark);
+}
+
+html .landingLogo {
+  width: 15%;
+  min-width: 150px;
+  margin-bottom: 10px;
+}
+
+html .navLogo {
+width: 80%;
+}
+
+#about {
+  font-size: calc(1rem + .5vw);
+}
+
+html h1 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 650;
+  font-style: normal;
+  color: var(--my-white);
+  font-size: 9vw;
+  
+}
+
+/**************************** Animations ************************/
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  /* transform: translateX(-100%); */
+  transition: all 1s;
+}
+
+.show {
+ opacity: 1 ;
+ filter: blur(0);
+  /* transform: translateX(0); */
+}
+
+.skill:nth-child(2) {
+  transition-delay: 200ms;
+}
+
+.skill:nth-child(3) {
+  transition-delay: 400ms;
+}
+
+.skill:nth-child(4) {
+  transition-delay: 600ms;
+}
+
+.skill:nth-child(5) {
+  transition-delay: 200ms;
+}
+
+.skill:nth-child(6) {
+  transition-delay: 400ms;
+}
+
+.skill:nth-child(7) {
+  transition-delay: 600ms;
+}
+
+.skill:nth-child(8) {
+  transition-delay: 800ms;
+}
+
+.skill:nth-child(9) {
+  transition-delay: 600ms;
+}
+
+.skill:nth-child(10) {
+  transition-delay: 800ms;
+}
+
+/* Portfolio Animation */
+
+.project:nth-child(2) {
+  transition-delay: 200ms;
+}
+
+.project:nth-child(3) {
+  transition-delay: 200ms;
+}
+
+.project:nth-child(4) {
+  transition-delay: 400ms;
+}
+
+/**************************** Navbar ****************************/
+
+nav {
+ background-color: var(--my-dark);
+ box-shadow: 0px 8px 8px -6px rgba(0,0,0,.5);
+}
+
+.navbar a {
+  color: var(--my-white);
+  transition: all .3s;
+}
+
+.navbar a:hover {
+  color: var(--my-accent);
+}
+
+#nav-logo {
+  width: 80%;
+}
+
+/* Add a new class for slide-in animation */
+.slide-in {
+  animation: slideIn 0.5s forwards;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-150%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+/* Add a new class for slide-out animation */
+.slide-out {
+  animation: slideOut 0.5s forwards;
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-150%);
+  }
+}
+
+
+#about h2 {
+  color: #37433B;
+}
+
+#profilephoto {
+  width: 100%;
+  max-width: 250px;
+  filter: grayscale(.6) drop-shadow(6px 6px var(--my-light));
+}
+
+
+#signature {
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5em;
+}
+
+
+/**************************** Skills ****************************/
+
+#skills-content > div {
+  background-color: var(--my-light);
+  color: var(--my-dark);
+}
+
+#skills .card-img-top {
+  width: 100%;
+  height: 12vh;
+  object-fit: contain;
+  transition: 1s ease;
+  }
+
+#skills .card-img-top:hover {
+-webkit-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.2);
+transition: 1s ease;
+  }
+
+#skills .card-text {
+  font-size: 1rem;
+}
+  
+
+/**************************** Contact ****************************/
+
+#contact-info {
+  height: 15vh;
+}
+
+#quote {
+  color: gray;
+}
+/**************************** Portfolio ****************************/
+
+#portfolio .card-img-top {
+  width: 100%;
+  height: 30vw;
+  min-height: 250px;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+.img-container {
+  overflow: hidden;
+
+}
+
+#portfolio img {
+  transition: all 1s; 
+  display: block;
+    }
+
+#portfolio img:hover {
+  transform: scale(1.05);
+  transform-origin: 50% 50%;
+    }
+
+.card-text{
+  font-size: 20px;
+}
+
+.card
+
+.contact-icon {
+  width: 5em;
+  padding: .25em;
+}

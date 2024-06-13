@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Head -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>axel diaz</title>
+  <link rel="icon" type="image/x-icon" href="/img/adfavicon.png">
+  <link rel="stylesheet" href="CSS/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allura&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+
+<!-- Body -->
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark d-none fixed-top slide-in px-4 py-1 overflow-hidden" id="nav-bar">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="../index.html"><img src="../img/smallnavlogo.png" alt="ad logo" class="navLogo"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse px-auto justify-content-end fs-5" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/index.html#about-header">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/index.html#skills-header">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/index.html#projects">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/index.html#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Wrapper -->    
+<div class="container-lg-12 overflow-hidden">
+
+<!-- Header -->
+  <div class="container-lg pt-5 pb-2 hidden" id="about-header">
+    <div class="row">
+      <div class="col-4"><h6>PROJECTS</h6></div>
+    </div>
+    <div class="row">
+      <div class="col-11 mb-2"><h1>Automation: Effortless Record Keeping</h1></div>
+    </div>
+    <div class="row border-bottom border-top">
+      <div class="col-md-3 py-2">
+        <span>GOAL<br><br>
+          Improve efficiency<br>
+          Eliminate manual searching<br>
+          Automate an entire process <br>
+        </span>
+      </div>
+      <div class="col-md-2 py-2">
+        <span>
+          TOOLS USED<br><br>
+          Outlook<br>
+          Excel <br>
+          PowerAutomate
+        </span>
+      </div>
+      <div class="col-md-7 py-2">
+        <span>
+          RESULT <br><br>
+          Significant time savings. The ability to quickly reference the logbook of reference numbers, subject lines
+            of automated responses, and their respective dates has enhanced our efficiency in resolving disputes on 
+            behalf of our clients. 
+        </span>
+      </div>
+      <div class="col-3"></div>
+    </div>
+  </div>
+
+<!-- Content -->
+<div class="container-lg hidden content mb-5">
+  <div class="row py-2 hidden">
+    <div class="col-md-12">
+      <h2>Overview</h2>
+     <p>
+        Submitting contracts to Sysco’s DPM (Distributed Price Management) team triggers an automated email response from the distributor,
+        acknowledging receipt of the contract and providing a reference number. Often, this reference number is useful when disputing price 
+        discrepancies with the distributor on behalf of our clients. <br><br>
+        
+        During these disputes, if we are told pricing was not loaded because the contract was not submitted, the reference number from the 
+        automated e-mail comes into use. These instances when the reference number and backup is needed by our auditing team, happen 
+        months after the fact. <br><br>
+        
+        Previously our team would spend time digging through old e-mails trying to find the automated response 
+        from Sysco and the reference number. To address this issue, I embarked on an initiative aimed at streamlining the process of storing
+        and accessing these reference numbers and e-mails. <br><br>
+     </p>
+    </div>
+    <div class="col-md-12 text-center">
+        <figure>
+            <img src="../img/projects/logbook/SRemail.png" alt="">
+            <figcaption class="figure-caption text-light mt-3">Example of an automated e-mail from Sysco</figcaption>
+        </figure>
+    </div>
+  </div>
+  <div class="row hidden">
+    <div class="col-md-12 py-4">
+      <h2>Walkthrough</h2>
+      <p>
+        This was completed by creating a PowerAutomate flow which moves these automated response e-mails from our inbox into an appropriately named folder, 
+        marks the message as read, then logs the subject line, reference number, and date of receipt into an Excel spreadsheet. The 
+        e-mail is never seen by us, is archived into a separate folder and the information is added to the spreadsheet log. When needed, 
+        we are now able to reference this spreadsheet to find the necessary information quickly and be able to find the e-mail quickly by 
+        searching for the subject line within the folder the e-mails are put into.  
+      </p>
+    </div>
+    <div class="col-md-12 hidden text-center">
+        <figure>
+            <img src="../img/projects/logbook/powerautomatess.png" alt="">
+            <figcaption class="figure-caption text-light mt-3">Screenshot of the PowerAutomate flow design</figcaption>
+        </figure>
+    </div>
+    <div class="col-md-12 py-4 hidden">
+      <h2>Result</h2>
+      <p>
+        After implementing this new process and automation, we were able to save valuable time by being able to easily reference the 
+        logbook of reference numbers, the subject line of the automated response, and the date it was sent to us.  <br><br>
+
+        Since implementing this streamlined process and automation, we have experienced significant time savings. Our ability to quickly
+        reference the logbook of reference numbers, subject lines of automated responses, and their respective dates has enhanced our 
+        efficiency in resolving disputes on behalf of our clients. By leveraging this innovative solution, we have improved our service 
+        delivery and strengthened our ability to navigate complex pricing negotiations with Sysco.  
+      </p>
+    </div>
+    <div class="col-md-12 hidden text-center">
+        <figure>
+            <img src="../img/projects/logbook/logbookss.png" alt="">
+            <figcaption class="figure-caption text-light mt-3">Subject line and reference number extracted and logged to shared spreadsheet</figcaption>
+        </figure>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Footer -->
+<div class="container-lg mb-2 hidden">
+  <div class="row row-col-1 row-cols-lg-1 text-center">
+    <div class="col mb-4"><img src="../img/adlogo.png" alt="" id="footerlogo"></div>
+    <div class="column " id="contact-info">
+      <span class="fs-4">Email: </span><span class="text-light fs-5"><a href="mailto:contact@axeldiaz.net">contact@axeldiaz.net</a></span><br>
+      <span class="fs-4">On the Web: </span><span class="text-light fs-5"><a href="https://www.linkedin.com/in/diazaxel/" target="_blank" rel="noopener noreferrer">LinkedIn</a></span><br><br>
+    </div>
+    <div class="column pt-2 pb-4">
+      <span>Designed and Developed by Axel Diaz Copyright © 2023</span><br><br>
+      <span id="quote">
+        “When you arise in the morning think of what a privilege it is to be alive,
+         to think, to enjoy, to love ...” ― Marcus Aurelius</span>
+    </div>
+  </div>
+</div> 
+
+<!-- SCRIPTS-->  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="../JS/scripts.js"></script>
+<script defer src="../app.js"></script>
+</body>
+</html>
+
