@@ -44,6 +44,7 @@ a:hover {
   text-align: center;
   padding-top: 30vh;
   border: solid 2em var(--my-dark);
+  position: relative;
 }
 
 html .landingLogo {
@@ -135,11 +136,6 @@ html h1 {
   transition-delay: 400ms;
 }
 
-/* Ensure landing container is relative */
-#header {
-  position: relative;
-}
-
 /* Scroll-down container */
 .scroll-down {
   position: absolute;
@@ -151,10 +147,14 @@ html h1 {
 
 /* Arrow PNG animation */
 .scroll-arrow {
-  width: 50px; /* Adjust as needed */
+  width: 50px;
   height: auto;
-  animation: bounce 1.5s infinite;
+  animation-name: bounce;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
+
 
 /* Bouncing animation */
 @keyframes bounce {
