@@ -1,312 +1,168 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<!-- Head -->
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Business Analyst portfolio of Axel Diaz — specializing in data analysis, process automation, and dashboard development using Power BI, SQL, and Power Automate.">
-  <meta name="keywords" content="Business Analyst, Data Analysis, Power BI, SQL, Power Automate, Dashboards">
-  <title>axel diaz</title>
-  <link rel="icon" type="image/x-icon" href="/img/adfavicon.png">
-  <link rel="stylesheet" href="CSS/styles.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Allura&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary SEO -->
+  <title>Axel Diaz — Business Analyst | Data & Automation | Connecticut</title>
+  <meta name="description" content="Axel Diaz is a Business Analyst at COCC specializing in Power BI, SQL, data automation, and process improvement for fintech and banking clients in Connecticut." />
+  <meta name="author" content="Axel Diaz" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.axeldiaz.net/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.axeldiaz.net/" />
+  <meta property="og:title" content="Axel Diaz — Business Analyst" />
+  <meta property="og:description" content="Business Analyst at COCC. I turn complex data into actionable insights using Power BI, SQL, and automation tools." />
+  <meta property="og:image" content="https://www.axeldiaz.net/img/og-preview.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Axel Diaz — Business Analyst" />
+  <meta name="twitter:description" content="Business Analyst at COCC. Power BI, SQL, automation, process improvement." />
+  <meta name="twitter:image" content="https://www.axeldiaz.net/img/og-preview.png" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Axel Diaz",
+    "jobTitle": "Business Analyst",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "COCC"
+    },
+    "url": "https://www.axeldiaz.net",
+    "sameAs": [
+      "https://www.linkedin.com/in/diazaxel/"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "CT",
+      "addressCountry": "US"
+    },
+    "alumniOf": [
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "Eastern Connecticut State University"
+      },
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "Central Connecticut State University"
+      }
+    ],
+    "knowsAbout": ["Power BI", "SQL", "Business Analysis", "Data Analytics", "Process Improvement", "Power Automate", "Crystal Reports"]
+  }
+  </script>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/img/adfavicon.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="CSS/styles.css" />
 </head>
 
-<!-- Body -->
 <body>
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark d-none fixed-top slide-in px-4 py-1 overflow-hidden" id="nav-bar">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="img/smallnavlogo.png" alt="ad logo" class="navLogo"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse px-auto justify-content-end fs-5" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#skills-header">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about-header">About Me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#projects">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+  <div class="page">
+    <div class="col">
+      <main>
+        <!-- HERO -->
+        <section class="hero-row" aria-label="Introduction">
+          <div>
+            <p class="hero-eyebrow">Business Analyst · Connecticut</p>
+            <h1 class="hero-name">Axel <em>Diaz</em></h1>
+            <p class="hero-sub">Data → Decisions</p>
+          </div>
+          <div class="facts" role="table" aria-label="Quick facts">
+            <div class="fact" role="row">
+              <span class="fact-label" role="rowheader">Role</span>
+              <span class="fact-value" role="cell">Business Analyst</span>
+            </div>
+            <div class="fact" role="row">
+              <span class="fact-label" role="rowheader">Company</span>
+              <span class="fact-value" role="cell">COCC</span>
+            </div>
+            <div class="fact" role="row">
+              <span class="fact-label" role="rowheader">Focus</span>
+              <span class="fact-value" role="cell">Data · Automation · BI</span>
+            </div>
+            <div class="fact" role="row">
+              <span class="fact-label" role="rowheader">Education</span>
+              <span class="fact-value hl" role="cell">M.S. CIT · CCSU (In progress) </span>
+            </div>
+            <div class="fact" role="row">
+              <span class="fact-label" role="rowheader"></span>
+              <span class="fact-value" role="cell">B.S. Accounting · ECSU</span></span>
+            </div>
+            <div class="fact" role="row">
+              <span class="fact-label" role="rowheader">Location</span>
+              <span class="fact-value" role="cell">Connecticut, US</span>
+            </div>
+          </div>
+        </section>
 
-<!-- Wrapper -->    
-<div class="container-lg-12 overflow-hidden">
+        <hr class="divider" />
 
-<!-- Landing -->
-  <div class="container-lg-12 hidden" id="header">
-    <img src="/img/adlogo.png" alt="logo" class="landingLogo">
-     <div class="scroll-down">
-      <img src="img/down_arrows.png" alt="Scroll Down" class="scroll-arrow">
-    </div>
-  </div>
+        <!-- ABOUT -->
+        <section id="about" aria-labelledby="about-heading">
+          <p class="about-text">Business Analyst at <a href="https://www.cocc.com/" target="_blank" rel="noopener noreferrer"><strong>COCC</strong></a>, a fintech serving community banks and credit unions across New England. I specialize in translating complex data into decisions, building interactive dashboards, automating manual processes, and helping clients get more out of their systems. Currently pursuing an <strong>M.S. in Computer Information Technology</strong> (CS track) at <strong>Central Connecticut State University</strong>. Always looking for the next inefficiency to eliminate.</p>
+        </section>
 
-<!-- Skills Header -->
-<section class="container-fluid py-4 mt-4 text-center hidden" id="skills-header">
-  <div class="row-md-12"><h1>Tools & Skills</h1>
-  </div>
-</section>
+        <!-- SKILLS -->
 
-<!-- Skills Cards -->
-<section class="row row-cols-1 row-cols-lg-4 pt-4 mx-auto gy-4 w-75 justify-content-center" id="skills">
-  <div class="col skill hidden">
-    <div class="card h-100 bg-transparent border-0">
-      <img src="img/Skills/New_Power_BI_Logo.svg.png" class="card-img-top" alt="Power BI Logo" loading="lazy">
-      <div class="card-body">
-        <h5 class="card-title text-light text-center">Power BI</h5>
-        <p class="card-text text-center">
-          Design interactive dashboards using DAX and data modeling to reveal trends and support data-driven decisions.
+            <p class="section-label" id="skills-heading">Tools &amp; Skills</p>
+            <div class="skill-list">
+              <span class="tag hi">Power BI</span>
+              <span class="tag">SQL</span>
+              <span class="tag">Crystal Reports</span>
+              <span class="tag">Excel</span>
+              <span class="tag">Tableau</span>
+              <span class="tag">Power Automate</span>
+              <span class="tag">SharePoint</span>
+              <span class="tag">Outlook</span>
+              <span class="tag">HTML / CSS</span>
+              <span class="tag">Process Improvement</span>
+              <span class="tag">Client Training</span>
+              <span class="tag">Team Management</span>
+              <span class="tag">AI Tooling</span>
+            </div>
+        </section>
 
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="col skill hidden">
-    <div class="card h-100 bg-transparent border-0">
-      <img src="img/Skills/crystal_logo.png" class="card-img-top" alt="Crystal Reports Logo" loading="lazy">
-      <div class="card-body">
-        <h5 class="card-title text-light text-center">Crystal Reports</h5>
-        <p class="card-text text-center">
-          Develop precise, SQL-driven reports that transform complex datasets into actionable business insights.
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="col skill hidden">
-    <div class="card h-100 bg-transparent border-0">
-      <img src="img/Skills/SQL_logo.png" class="card-img-top" alt="SQL Logo" loading="lazy">
-      <div class="card-body">
-        <h5 class="card-title text-light text-center">SQL</h5>
-        <p class="card-text text-center">
-          Write efficient queries using CTEs and subqueries to uncover patterns and optimize reporting accuracy.
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="col skill hidden">
-    <div class="card h-100 bg-transparent border-0">
-      <img src="img/Skills/AI.png" class="card-img-top" alt="AI Logo" loading="lazy">
-      <div class="card-body">
-        <h5 class="card-title text-light text-center">Artificial Intelligence</h5>
-        <p class="card-text text-center">
-          Use of AI tools to enhance decision-making, maximize knowledge utilization, and drive process improvements.
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="col skill hidden">
-    <div class="card h-100 bg-transparent border-0">
-      <img src="img/Skills/excel_logo.png" class="card-img-top" alt="Excel Logo" loading="lazy">
-      <div class="card-body">
-        <h5 class="card-title text-light text-center">Excel</h5>
-        <p class="card-text text-center">
-          Build analytical models with formulas, pivot tables, and macros to streamline reporting and analysis.
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="col skill hidden">
-    <div class="card h-100 bg-transparent border-0">
-      <img src="img/Skills/powerautomate-small@6x.png" class="card-img-top" alt="PowerAutomate Logo" loading="lazy">
-      <div class="card-body">
-        <h5 class="card-title text-light text-center">PowerAutomate</h5>
-        <p class="card-text text-center">
-          Automate repetitive business processes to increase efficiency and reduce manual workload.
-        </p>
-      </div>
-    </div>
-  </div>
-    <div class="col skill hidden">
-    <div class="card h-100 bg-transparent border-0">
-      <img src="img/Skills/sharepoint_icon.webp" class="card-img-top" alt="SharePoint Logo" loading="lazy">
-      <div class="card-body">
-        <h5 class="card-title text-light text-center">SharePoint</h5>
-        <p class="card-text text-center">
-          Create organized systems for document management, collaboration, and automated process workflows.
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="col skill hidden">
-    <div class="card h-100 bg-transparent border-0">
-      <img src="img/Skills/html_css_logo_2.png" class="card-img-top" alt="HTML/CSS Logo" loading="lazy">
-      <div class="card-body">
-        <h5 class="card-title text-light text-center">HTML/CSS</h5>
-        <p class="card-text text-center">
-          Build structured, user-friendly web assets and styled interfaces that enhance readability, usability, and visual appeal.
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="col skill hidden">
-    <div class="card h-100 bg-transparent border-0">
-      <img src="img/Skills/training_icon.png" class="card-img-top" alt="Team Logo" loading="lazy">
-      <div class="card-body">
-        <h5 class="card-title text-light text-center">Client Training & Support</h5>
-        <p class="card-text text-center">
-          I thrive on helping clients succeed through clear, confident training and support.
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="col skill hidden">
-    <div class="card h-100 bg-transparent border-0">
-      <img src="img/Skills/team-icon.svg" class="card-img-top" alt="Team Logo" loading="lazy">
-      <div class="card-body">
-        <h5 class="card-title text-light text-center">Team Management</h5>
-        <p class="card-text text-center">
-          Lead teams with clear communication, motivation, and collaboration to achieve operational goals.
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="col skill hidden">
-    <div class="card h-100 bg-transparent border-0">
-      <img src="img/Skills/process-icon.svg" class="card-img-top" alt="Process Icon" loading="lazy">
-      <div class="card-body">
-        <h5 class="card-title text-light text-center">Process Improvement</h5>
-        <p class="card-text text-center">
-          Identify inefficiencies and implement data-informed solutions that enhance productivity and accuracy.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>  
+        <hr class="divider" />
 
-<!-- About Header -->  
-  <section class="container-lg pt-4 pb-0 text-center hidden" id="about-header">
-    <div class="row-md-12"><h1>About Me</h1>
-    </div>
-  </section>
+        <!-- CONTACT -->
+        <section id="contact" aria-labelledby="contact-heading">
+          <p class="contact-name" id="contact-heading">Let's <span>Connect.</span></p>
+          <div class="contact-row">
+            <span class="contact-pill">Email</span>
+            <a href="mailto:contact@axeldiaz.net">contact@axeldiaz.net</a>
+          </div>
+          <div class="contact-row">
+            <span class="contact-pill">LinkedIn</span>
+            <a href="https://www.linkedin.com/in/diazaxel/" target="_blank" rel="noopener noreferrer">linkedin.com/in/diazaxel</a>
+          </div>
+        </section>
 
-<!-- About Me -->
-<section class="container-lg pt-0" id="about">
-  <div class="row py-4 px-5 hidden text-center">
-    <div class="col-md-10 mx-auto mb-4" >
-      <p>
-        Hello, I'm Axel, a Business Analyst at <a href="https://www.cocc.com" target="_blank">COCC</a>. I turn complex data into actionable insights and automate workflows using tools like Power BI, Crystal Reports, and SQL. I thrive on learning new technologies, optimizing processes, leveraging AI, and solving client challenges with excellent service. Currently, I’m self-learning Python to expand my data analysis skills and continue delivering efficient, impactful solutions.
-      </p><br>           
-      </p>
-    </div>
-    <div class="row-md-3 text-center">
-      <img src="img/ADprofile.jpg" alt="Profile Photo" id="profilephoto" class="img-fluid" loading="lazy">
-    </div>
-  </div>
-</section>
+      </main>
 
-<!-- Portfolio Header -->
-<section class="container-fluid py-5 text-center hidden" id="projects">
-  <div class="row-md-12">    
-    <h1>Projects</h1>
-    <h5><p class="fst-italic text-secondary">Client names and logos omitted for confidentiality.</p></h5>
-
-  </div>
-</section>
-
-<!-- Portfolio Cards -->
-<section class="container-lg" id="portfolio">
-  <div class="row row-cols-1 row-cols-md-2 gy-5 px-2">
-    <div class="col hidden project">
-      <div class="card bg-transparent border-0 rounded-0">
-        <div class="img-container"><img src="img/projects/sharepoint-email/sharepointssnippet.webp" class="card-img-top" alt="..." loading="lazy"></div>
-        <div class="card-body ps-0">
-          <h3 class="card-title text-light"><a href="/projects/process-improvement.html">Process Improvement: Eliminating Steps</a></h3>
-          <p class="card-text p-0">A project aimed at optimizing our contract management process using SharePoint and PowerAutomate</p>
+      <footer>
+        <div class="footer-row">
+          <span class="footer-copy">© 2026 Axel Diaz</span>
+          <p class="footer-quote">"When you arise in the morning, think of what a privilege it is to be alive." — Marcus Aurelius</p>
         </div>
-        <div>
-          <button type="button" class="btn btn-secondary btn-sm" disabled>SharePoint</button>
-          <button type="button" class="btn btn-secondary btn-sm" disabled>PowerAutomate</button>
-          <button type="button" class="btn btn-secondary btn-sm" disabled>Outlook</button>
-        </div>
-      </div>
-    </div>
-    <div class="col hidden project">
-      <div class="card bg-transparent border-0 rounded-0">
-        <div class="img-container"><img src="img/projects/logbook/powerautomatess.png" class="card-img-top" alt="..." loading="lazy"></div>
-        <div class="card-body ps-0">
-          <h3 class="card-title text-light"><a href="/projects/logbook.html">Automation: Effortless Record Keeping</a></h3>
-          <p class="card-text">This initiative aimed to automate a logbook of responses received from Sysco in response to contract submissions.</p>
-        </div>
-        <div>
-          <button type="button" class="btn btn-secondary btn-sm" disabled>Excel</button>
-          <button type="button" class="btn btn-secondary btn-sm" disabled>Outlook</button>
-          <button type="button" class="btn btn-secondary btn-sm" disabled>PowerAutomate</button>
-        </div>
-      </div>
-    </div>
-    <div class="col hidden project">
-      <div class="card bg-transparent border-0 rounded-0">
-        <div class="img-container"><img src="img/tableaucard.png" class="card-img-top" alt="..." loading="lazy"></div>
-        <div class="card-body ps-0">
-          <h3 class="card-title text-light"><a href="/projects/housesalesdashboard.html">Tableau: House Sales Dashboard</a></h3>
-          <p class="card-text">A dynamic and interactive user-friendly dashboard summarizing a large dataset.</p>
-        </div>
-        <div>
-          <button type="button" class="btn btn-secondary btn-sm" disabled>Tableau</button>
-          <button type="button" class="btn btn-secondary btn-sm" disabled>Excel</button>
-        </div>
-      </div>
-    </div>
-    <div class="col hidden project">
-      <div class="card bg-transparent border-0">
-        <div class="img-container"><img src="img/projects/tracker/trackerthumbnail.png" class="card-img-top" alt="..." loading="lazy"></div>
-        <div class="card-body ps-0">
-          <h3 class="card-title text-light"><a href="/projects/progresstracker.html">Power BI: Progress Tracker Visual</a></h3>
-          <p class="card-text">A visual tool implemented to provide real-time updates and reduce client communication.</p>
-        </div>
-        <div>
-          <button type="button" class="btn btn-secondary btn-sm" disabled>Power BI</button>
-          <button type="button" class="btn btn-secondary btn-sm" disabled>Sharepoint</button>
-          <button type="button" class="btn btn-secondary btn-sm" disabled>Excel</button>
-        </div>
-      </div>
+      </footer>
+
     </div>
   </div>
-</section>
 
-<!-- Contact Header -->
-<section class="container-fluid py-4 mt-5 text-center hidden" id="contact">
-  <div class="row-md-12"><h1>Get In Touch</h1></div>
-</section>
-
-<!-- Contact -->
-<section class="container-lg mb-5 hidden">
-  <div class="row row-col-1 row-cols-lg-1 text-center">
-    <div class="column " id="contact-info">
-      <span class="fs-4">Email: </span><span class="text-light fs-5"><a href="mailto:contact@axeldiaz.net">contact@axeldiaz.net</a></span><br>
-      <span class="fs-4">On the Web: </span><span class="text-light fs-5"><a href="https://www.linkedin.com/in/diazaxel/" target="_blank" rel="noopener noreferrer">LinkedIn</a></span><br><br>
-    </div>
-    <div class="column pt-5">
-      <span>Designed and Developed by Axel Diaz Copyright © 2025</span><br><br>
-      <span id="quote">
-        “When you arise in the morning think of what a privilege it is to be alive,
-         to think, to enjoy, to love ...” ― Marcus Aurelius</span>
-    </div>
-  </div>
-</section> 
-
-<!-- SCRIPTS-->  
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<script src="JS/scripts.js"></script>
-<script defer src="app.js"></script>
 </body>
 </html>
-
