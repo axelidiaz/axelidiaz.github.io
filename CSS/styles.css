@@ -175,6 +175,10 @@ a:focus-visible {
   color: var(--accent);
 }
 
+.about-text a strong {
+  color: inherit;
+}
+
 /* ── SKILLS ── */
 .section-label {
   font-family: var(--mono);
