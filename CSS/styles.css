@@ -165,16 +165,14 @@ a:focus-visible {
 }
 
 .about-text a {
+  color: var(--text-primary);
   text-decoration: none;
   transition: color 0.2s;
 }
 
 .about-text a:hover,
 .about-text a:focus {
-  text-decoration: none;
   color: var(--accent);
-  transition: color 0.2s;
-  outline: none;
 }
 
 /* ── SKILLS ── */
